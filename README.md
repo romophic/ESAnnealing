@@ -5,7 +5,8 @@
 
 ## Example
 from /example.cpp  
-関数 $ f(x) = -x^4 + x^3 + x^2 + x$の最大値を焼きなまし法で求める
+関数 $f(x) = -x^4 + x^3 + x^2 + x$ の最大値を焼きなまし法で求める  
+![image](https://github.com/user-attachments/assets/555a94f1-f641-4568-a6e2-635375eb778f)
 ```cpp
 #include "esannealing.hpp"
 
