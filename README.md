@@ -1,7 +1,9 @@
 # ESAnnealing
 
 ## Usage
-構造体に状態変数及び評価関数`double eval()`と遷移`void modify()`を実装し、`ESAnnealing<class>`で宣言した後`ESAnnealing.annealing()`で焼きなましを行う。計算量 $ O\left(\text{epoch} \left \lceil \cfrac{\log \text{(target temp)} - \log {\text{(init  temp)}}}{\log \text{(cooling coef)}} \right \rceil O(\text{eval()}) O(\text{modify()}) \right ) $
+構造体に状態変数及び評価関数`double eval()`と遷移`void modify()`を実装し、`ESAnnealing<class>`で宣言した後`ESAnnealing.annealing()`で焼きなましを行う。計算量
+$O\left(\text{epoch} \left \lceil \dfrac{\log \text{(target temp)} - \log {\text{(init  temp)}}}{\log \text{(cooling coef)}} \right \rceil O(\text{eval()}) O(\text{modify()}) \right )$
+
 
 ## Example
 from /example.cpp  
