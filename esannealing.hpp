@@ -21,6 +21,7 @@ public:
   void annealing(double epoch, double temperature, double temperature_target, double coolingcoef, unsigned int seed = 42, bool verbose = true)
   {
     assert(0 <= coolingcoef and coolingcoef < 1);
+    assert(temperature >= temperature_target);
     srand(seed);
     double initscore = state.eval();
     double beststate_score = initscore;
